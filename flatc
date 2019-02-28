@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run -v $(pwd):/work --rm -it --user $(id -u):$(id -g) nnynn/flatc:latest flatc $*
